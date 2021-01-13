@@ -1,0 +1,20 @@
+Should be named 'service.Config'
+
+{
+    "SECRET_KEY": "",
+    "SQLALCHEMY_DATABASE_URI" : "",
+    "DBUSER" : "",
+    "DBPASS" : "",
+    "USER_PROFILE_PHOTOS_PATH" : "/home/TeeBoxPhotos/Profile/User",
+    "COURSE_PROFILE_PHOTOS_PATH" : "/home/TeeBoxPhotos/Profile/Course",
+    "STRIPE_PUBLIC_KEY" : "",
+    "STRIPE_SECRET_KEY" : ""
+}
+
+Should be named 'app_settings.Config'
+
+{
+    "PORT" : int
+    "API_ACTIVE" : bool,
+    "DEBUG" : bool
+}
